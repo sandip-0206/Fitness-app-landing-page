@@ -32,57 +32,18 @@ body{
     margin-top: 100px;
     margin-bottom: 50px;
 }
-@media (min-width: 300px) { 
-    .img {
-        height: 10rem;
-        width: 15rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
- }
-@media (max-width: 575.98px) { 
-    .header{
-        margin-top: 2rem;
-    }
-    .img {
-        height: 15rem;
-        width: 20rem;
-        margin-top: 2rem;
-      }
- }
-@media (min-width: 768px) { 
-    .img {
-        height: 23rem;
-        width: 25rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
- }
-@media (min-width: 992px) { 
-    .img {
-        height: 25rem;
-        width: 30rem;
-      }
- }
-@media (min-width: 1200px) { 
-    .img {
-        height: 25rem;
-        width: 30rem;
-      }
- }
-@media (min-width: 1400px) { 
-    .img {
-        height: 35rem;
-        width: 35rem;
-        
-      }
- }
+.img{
+    width: 30rem;
+    height: 25rem;
+}
 .btn-1{
     background-color: #1d9d8f;
     font-weight: bold;
     padding: 0.8rem;
+}
+.btn-0:hover{
+    background: #fff;
+    color: #1d9d8f !important;
 }
 .btn-1:hover{
     background: #fff;
@@ -95,3 +56,29 @@ body{
 .btn-2:hover{
     color: #fff;
 }
+@media (min-width: 300px) { 
+    .imgage {
+        height: 10rem;
+        width: 15rem;
+        margin-top: 10rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+ }
+ 
+ @media (max-width: 576px){
+    .img{
+       width: 20rem;
+       height: 18rem;
+    }
+       .image{
+        width: 35rem;
+        height: 30rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -5rem;
+    }
+    
+ }
