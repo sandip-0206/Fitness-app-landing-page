@@ -32,11 +32,6 @@ body{
     margin-top: 100px;
     margin-bottom: 50px;
 }
-/* .img{
-    height: 30rem;
-    width: 40rem;
-    margin-left: -5rem;
-} */
 @media (min-width: 300px) { 
     .img {
         height: 10rem;
